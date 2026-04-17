@@ -1,0 +1,157 @@
+PODS:
+  - BRPickerView (2.9.7):
+    - BRPickerView/All (= 2.9.7)
+  - BRPickerView/All (2.9.7):
+    - BRPickerView/Default
+    - BRPickerView/Deprecated
+  - BRPickerView/Core (2.9.7)
+  - BRPickerView/DatePicker (2.9.7):
+    - BRPickerView/Core
+  - BRPickerView/Default (2.9.7):
+    - BRPickerView/DatePicker
+    - BRPickerView/TextPicker
+  - BRPickerView/Deprecated (2.9.7):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/AddressPickerView (= 2.9.7)
+    - BRPickerView/Deprecated/Base (= 2.9.7)
+    - BRPickerView/Deprecated/StringPickerView (= 2.9.7)
+  - BRPickerView/Deprecated/AddressPickerView (2.9.7):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/Deprecated/Base (2.9.7):
+    - BRPickerView/Core
+  - BRPickerView/Deprecated/StringPickerView (2.9.7):
+    - BRPickerView/Core
+    - BRPickerView/Deprecated/Base
+  - BRPickerView/TextPicker (2.9.7):
+    - BRPickerView/Core
+  - NNKit (1.0.8):
+    - BRPickerView
+    - NNKit/Assets (= 1.0.8)
+    - NNKit/Classes (= 1.0.8)
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Assets (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes (1.0.8):
+    - BRPickerView
+    - NNKit/Classes/Base (= 1.0.8)
+    - NNKit/Classes/Extensions (= 1.0.8)
+    - NNKit/Classes/OCFiles (= 1.0.8)
+    - NNKit/Classes/Shared (= 1.0.8)
+    - NNKit/Classes/Utils (= 1.0.8)
+    - NNKit/Classes/Views (= 1.0.8)
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/Base (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/Extensions (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/OCFiles (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/Shared (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/Utils (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - NNKit/Classes/Views (1.0.8):
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxSwift (~> 6.6.0)
+    - RxSwiftExt
+    - SnapKit (~> 5.0.0)
+    - YYText (~> 1.0.7)
+  - PanModal (1.2.7)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SnapKit (5.0.1)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - NNKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BRPickerView
+    - PanModal
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+    - YYText
+
+EXTERNAL SOURCES:
+  NNKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRPickerView: 6548c8fbe21c0f29e72ab2fae177d196edc83f09
+  NNKit: 55e9df8edeec68cb6c3c3886973481de86436784
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 53ff9c119f8da18e0892272125dd752c045f6c06
+
+COCOAPODS: 1.16.2

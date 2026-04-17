@@ -1,0 +1,19 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'NNKit_Example' do
+  pod 'NNKit', :path => '../'
+
+  target 'NNKit_Tests' do
+    inherit! :search_paths
+
+#    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+#    pod 'SnapKit', '~> 5.0.0'
+#    pod 'BRPickerView'
+#    pod 'RxSwift', '~> 5'
+#    pod 'RxSwiftExt', '~> 5'
+#    pod 'RxCocoa', '~> 5'
+#    pod 'lottie-ios', '3.2.3'
+  end
+end

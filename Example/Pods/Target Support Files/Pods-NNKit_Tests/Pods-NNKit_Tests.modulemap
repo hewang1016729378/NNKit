@@ -1,0 +1,6 @@
+framework module Pods_NNKit_Tests {
+  umbrella header "Pods-NNKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "NNKit",
+  "version": "1.0.8",
+  "summary": "A short description of NNKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ly/NNKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nn": "nn.com"
+  },
+  "source": {
+    "git": "http://git.leigod.top/root/nnkit.git",
+    "tag": "1.0.8"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "prefix_header_contents": "# if __has_include(<NNKit/NNKit-Swift.h>)\n    #import <NNKit/NNKit-Swift.h>\n#else\n    #import NNKit-Swift.h\"\n#endif",
+  "static_framework": true,
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.0"
+    ],
+    "BRPickerView": [
+
+    ],
+    "PanModal": [
+
+    ],
+    "RxSwift": [
+      "~> 6.6.0"
+    ],
+    "RxSwiftExt": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "YYText": [
+      "~> 1.0.7"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Classes",
+      "subspecs": [
+        {
+          "name": "Base",
+          "source_files": "NNKit/Classes/Base/**/*"
+        },
+        {
+          "name": "Extensions",
+          "source_files": "NNKit/Classes/Extensions/**/*"
+        },
+        {
+          "name": "Shared",
+          "source_files": "NNKit/Classes/Shared/**/*"
+        },
+        {
+          "name": "Utils",
+          "source_files": "NNKit/Classes/Utils/**/*"
+        },
+        {
+          "name": "Views",
+          "source_files": "NNKit/Classes/Views/**/*"
+        },
+        {
+          "name": "OCFiles",
+          "source_files": "NNKit/Classes/OCFiles/**/*"
+        }
+      ]
+    },
+    {
+      "name": "Assets",
+      "resources": "NNKit/Assets/NNKitBundle.bundle"
+    }
+  ]
+}

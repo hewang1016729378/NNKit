@@ -1,0 +1,6 @@
+framework module NNKit {
+  umbrella header "NNKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
