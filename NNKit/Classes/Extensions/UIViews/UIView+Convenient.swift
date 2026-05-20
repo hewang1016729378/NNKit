@@ -239,7 +239,7 @@ public extension UIView {
 }
 
 public extension UIView {
-    fileprivate func showToast(_ text: String, _ view: UIView) {
+    fileprivate func showToast(_ text: String, _ view: UIView, _ isBlackStyle: Bool = false) {
         view.hideAllToasts()
         let style = TUICSToastManager.sharedStyle()
         style?.cornerRadius = 6.0
@@ -249,11 +249,17 @@ public extension UIView {
         style?.shadowOffset = CGSize(width: 0, height: 10.0)
         style?.shadowOpacity = 0.15
         style?.titleFont = .pingfang(14.0)
-        style?.titleColor = k_333333
+        if isBlackStyle {
+            style?.titleColor = .white
+            style?.messageColor = .white
+            style?.backgroundColor = .black
+        } else {
+            style?.titleColor = k_333333
+        }
         view.makeToast(text, duration: 1.5, position: TUICSToastPositionBottom, style: style)
     }
 
-    fileprivate func showCennterToast(_ text: String, _ view: UIView) {
+    fileprivate func showCennterToast(_ text: String, _ view: UIView,  _ isBlackStyle: Bool = false) {
         view.hideAllToasts()
         let style = TUICSToastManager.sharedStyle()
         style?.cornerRadius = 6.0
@@ -263,23 +269,29 @@ public extension UIView {
         style?.shadowOffset = CGSize(width: 0, height: 10.0)
         style?.shadowOpacity = 0.15
         style?.titleFont = .pingfang(14.0)
-        style?.titleColor = k_333333
+        if isBlackStyle {
+            style?.titleColor = .white
+            style?.messageColor = .white
+            style?.backgroundColor = .black
+        } else {
+            style?.titleColor = k_333333
+        }
         style?.messageFont = UIFont.systemFont(ofSize: 14)
         view.makeToast(text, duration: 1.5, position: TUICSToastPositionCenter, style: style)
     }
 
-    func showToast(_ text: String) {
+    func showToast(_ text: String, _ isBlackStyle: Bool = false) {
         DispatchQueue.main.async {
             if let keyWindow = UIApplication.shared.keyWindow {
-                self.showToast(text, keyWindow)
+                self.showToast(text, keyWindow, isBlackStyle)
             }
         }
     }
 
-    func showCennterToast(_ text: String) {
+    func showCennterToast(_ text: String, _ isBlackStyle: Bool = false) {
         DispatchQueue.main.async {
             if let keyWindow = UIApplication.shared.keyWindow {
-                self.showCennterToast(text, keyWindow)
+                self.showCennterToast(text, keyWindow, isBlackStyle)
             }
         }
     }
