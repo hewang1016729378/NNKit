@@ -25,85 +25,85 @@ PODS:
     - BRPickerView/Deprecated/Base
   - BRPickerView/TextPicker (2.9.7):
     - BRPickerView/Core
-  - NNKit (1.0.8):
+  - NNKit (1.1.0):
     - BRPickerView
-    - NNKit/Assets (= 1.0.8)
-    - NNKit/Classes (= 1.0.8)
+    - NNKit/Assets (= 1.1.0)
+    - NNKit/Classes (= 1.1.0)
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Assets (1.0.8):
+  - NNKit/Assets (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes (1.0.8):
+  - NNKit/Classes (1.1.0):
     - BRPickerView
-    - NNKit/Classes/Base (= 1.0.8)
-    - NNKit/Classes/Extensions (= 1.0.8)
-    - NNKit/Classes/OCFiles (= 1.0.8)
-    - NNKit/Classes/Shared (= 1.0.8)
-    - NNKit/Classes/Utils (= 1.0.8)
-    - NNKit/Classes/Views (= 1.0.8)
+    - NNKit/Classes/Base (= 1.1.0)
+    - NNKit/Classes/Extensions (= 1.1.0)
+    - NNKit/Classes/OCFiles (= 1.1.0)
+    - NNKit/Classes/Shared (= 1.1.0)
+    - NNKit/Classes/Utils (= 1.1.0)
+    - NNKit/Classes/Views (= 1.1.0)
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/Base (1.0.8):
+  - NNKit/Classes/Base (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/Extensions (1.0.8):
+  - NNKit/Classes/Extensions (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/OCFiles (1.0.8):
+  - NNKit/Classes/OCFiles (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/Shared (1.0.8):
+  - NNKit/Classes/Shared (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/Utils (1.0.8):
+  - NNKit/Classes/Utils (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
-  - NNKit/Classes/Views (1.0.8):
+  - NNKit/Classes/Views (1.1.0):
     - BRPickerView
     - PanModal
     - RxCocoa
-    - RxSwift (~> 6.6.0)
+    - RxSwift
     - RxSwiftExt
-    - SnapKit (~> 5.0.0)
+    - SnapKit
     - YYText (~> 1.0.7)
   - PanModal (1.2.7)
   - RxCocoa (6.6.0):
@@ -143,7 +143,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BRPickerView: 6548c8fbe21c0f29e72ab2fae177d196edc83f09
-  NNKit: 55e9df8edeec68cb6c3c3886973481de86436784
+  NNKit: 5bbaa2b536e9b7015492509104b4dfba9d097ddd
   PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6

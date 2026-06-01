@@ -40,12 +40,12 @@ extension UIImage {
 }
 
 extension String {
-    struct NoticeText {
+    public struct NoticeText {
         static let title = L$("key_notice_title")
         static let confirm = L$("key_notice_btn")
     }
     
-    struct JsonPath {
+    public struct JsonPath {
         static let activity = NNKitResource.resourceBundle().path(forResource: "json/jiazai", ofType: "json") ?? ""
     }
 }
