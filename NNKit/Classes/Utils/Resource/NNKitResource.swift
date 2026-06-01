@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class NNKitResource: NSObject {
-    static func resourceBundle() -> Bundle {
+    public static func resourceBundle() -> Bundle {
         //let bundle = Bundle.init(path: Bundle.init(for: NNKitResource.self).path(forResource: "NNKitBundle", ofType: "bundle")!)
         //return bundle!
         let mainBundle = Bundle(for: NNKitResource.self)
@@ -34,18 +34,18 @@ func I$(_ name: String) -> UIImage {
 }
 
 extension UIImage {
-    struct NoticeIcon {
-        static let close = I$("close")
+    public struct NoticeIcon {
+        public static let close = I$("close")
     }
 }
 
 extension String {
     public struct NoticeText {
-        static let title = L$("key_notice_title")
-        static let confirm = L$("key_notice_btn")
+        public static let title = L$("key_notice_title")
+        public static let confirm = L$("key_notice_btn")
     }
     
     public struct JsonPath {
-        static let activity = NNKitResource.resourceBundle().path(forResource: "json/jiazai", ofType: "json") ?? ""
+        public static let activity = NNKitResource.resourceBundle().path(forResource: "json/jiazai", ofType: "json") ?? ""
     }
 }
