@@ -462,7 +462,7 @@ static const NSString * TUICSToastQueueKey             = @"TUICSToastQueueKey";
     }
     
     // default to bottom
-    return CGPointMake(self.bounds.size.width / 2.0, (self.bounds.size.height - (toast.frame.size.height / 2.0)) - bottomPadding - 70.0);
+    return CGPointMake(self.bounds.size.width / 2.0, (self.bounds.size.height - (toast.frame.size.height / 2.0)) - bottomPadding - 100.0);
 }
 
 @end
